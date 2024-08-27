@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background: url(../imagens/bg.png);
+}
+
+.container{
+    max-width: 1180px;
+    min-width: 740px;
+    margin: 20px auto;
+    background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+}
+
+.topo{
+    height: 15.4em;
+    min-height: 250px;
+    position: relative;
+    
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: url(../imagens/topo-imagem-principal2.png) no-repeat;
+}
+
+.img-logo{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 151px;
+    height: 66px;
+    background: url(../imagens/logo.png) no-repeat;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 450px;
+    height: 250px;
+    background: url(../imagens/topo-imagem-lateral.png)no-repeat;
+}
+
+.reservar{
+    padding: 5px 0;
+    margin: 15px 0 0 20px;
+}
+.reservar #reserva{
+    padding: 2px 15px;
+    margin-left: 8px;
+    background-color: #A9A052;
+    color: white;
+}
+
+.menu img{
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+}
+.menu ul{
+    list-style: none;
+    margin: 45px 0 0 100px;
+}
+.menu li{
+    margin-bottom: 10px;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8b8448;
+}
+.menu a:hover{
+    background: white;
+}
+
+
+.conteudo-principal{
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-principal.png) repeat-x top left;
+    padding: 15px 0px;
+}
+.conteudo-principal h2{
+    color: #8b8448;
+    margin: 10px 0px;
+}
+.conteudo-principal p{
+    margin-bottom: 10px;
+}
+
+
+.conteudo-lateral{
+    float: left;
+    width: 50%;
+    background: url(../imagens/bg-area-lateral.png) repeat-x top left;
+    padding: 20px 0px;
+}
+
+.conteudo{
+    margin: 0 auto;
+    width: 90%;
+}
+
+#beneficios{
+    list-style: none;
+}
+
+#beneficios li{
+    padding: 8px;
+    border-bottom: 1px solid #f3efcb;
+    height: 6em;
+    background: url(../imagens/ornamento.png) no-repeat center right;
+}
+#beneficios a{
+    text-decoration: none;
+    color: black;
+}
+#beneficios h3{
+    color: #A9A052;
+    padding: 5px 0;
+}
+#beneficios li a img{
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+}
+
+
+.rodape{
+    clear: both;
+    background: url(../imagens/bg-rodape.png) repeat-x top;
+    color: #8b8448;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 15px 0;
+}
